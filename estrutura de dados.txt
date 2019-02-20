@@ -1,0 +1,4 @@
+CALLOC - > aloca um espaço na memoria e zera o valor do mesmo de maneira dinamic;
+MALLOC - > aloca um espaço na memoria de maneira dinamica;
+Free - > Desaloca o bloco de memoria;
+realloc - > altera o tamanho do bloco de memoria apontado por ptr(malloc ou calloc);
