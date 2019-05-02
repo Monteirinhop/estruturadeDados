@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Gustavo Monteiro/estruturadeDados/hanoi.c
+stdio.h
+-
+
+C:/Users/Gustavo Monteiro/estruturadeDados/hanoiPilhacpp.c
+iostream
+-
+vector
+-
+
+C:/Users/Gustavo Monteiro/estruturadeDados/ksimorecursivo.c
+stdio.h
+-
+
+C:/Users/Gustavo Monteiro/estruturadeDados/morte.c
+stdio.h
+-
+

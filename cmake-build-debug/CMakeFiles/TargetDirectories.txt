@@ -1,0 +1,3 @@
+C:/Users/Gustavo Monteiro/estruturadeDados/cmake-build-debug/CMakeFiles/estruturadeDados.dir
+C:/Users/Gustavo Monteiro/estruturadeDados/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Gustavo Monteiro/estruturadeDados/cmake-build-debug/CMakeFiles/rebuild_cache.dir
