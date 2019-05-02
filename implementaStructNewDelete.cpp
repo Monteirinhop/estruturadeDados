@@ -1,27 +1,25 @@
 #include <stdio.h>
 #include <iostream>
-
+#include <vector>
 
 using namespace std;
 
-int quantidade ;
+int quantidade;
 struct No{
 int valor;
 struct No *proximo;
-
 };
 struct No *topo = NULL;
 
 void Push(int valor){
 struct No *novoNO;
-novoNO = new struct No[3];
+novoNO = new struct No;
 novoNO -> valor = valor;
 if (topo == NULL)
     novoNO->proximo= NULL;
     else{
-        novoNO->proximo = topo;
-        quantidade +=1;
-
+        novoNO-> proximo = topo;
+        quantidade ++;
     }
 topo = novoNO;
 }
@@ -34,15 +32,18 @@ if (topo == NULL){
         struct No *temp = topo;
         cout << "elemento apagado : " << temp -> valor << "\n";
         topo = temp->proximo;
-        delete []temp;
+        quantidade --;
+        delete (temp);
     }
 }
 void imprimeLista(struct No *n){
-    while(n != NULL){
-        /* code */
-        cout << n-> valor << "   ";
-        n = n->proximo;
-    }
+    if ( n!=NULL){
+            cout << n-> valor << "   ";
+    imprimeLista(n->proximo);
+
+    }if (n == topo)
+        cout<<endl;
+
     }
 void verificaPilha(){
 if (topo == NULL)
@@ -56,20 +57,28 @@ void imprimeTopo(struct No *n){
 }
 void quantidadePilha(){
 
+
     cout << quantidade ;
     cout << "\n\n" ;
 }
-void pilhaInversa(){
+void imprimeInverso(struct No *top){
+if ( top!=NULL){
+
+    imprimeLista(top->proximo);
+    cout << top-> valor << "   ";
+
+    }
 
 }
+
+
 int main(){
-Push(10);
-Push(20);
-Push(20);
+Push(1);
+Push(2);
+Push(3);
+Push(4);
 Pop();
-verificaPilha();
-imprimeTopo(topo);
-quantidadePilha();
 imprimeLista(topo);
+imprimeInverso(topo);
 
 }
