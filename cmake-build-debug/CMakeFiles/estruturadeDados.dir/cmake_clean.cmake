@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/estruturadeDados.dir/KESIMORECUSRIVO.CPP.obj"
+  "CMakeFiles/estruturadeDados.dir/ListaduplamenteEncadeada.cpp.obj"
   "estruturadeDados.pdb"
   "estruturadeDados.exe"
   "estruturadeDados.exe.manifest"

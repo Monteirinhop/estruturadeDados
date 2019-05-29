@@ -122,32 +122,32 @@ estruturadeDados/fast:
 	$(MAKE) -f CMakeFiles\estruturadeDados.dir\build.make CMakeFiles/estruturadeDados.dir/build
 .PHONY : estruturadeDados/fast
 
-KESIMORECUSRIVO.obj: KESIMORECUSRIVO.CPP.obj
+ListaduplamenteEncadeada.obj: ListaduplamenteEncadeada.cpp.obj
 
-.PHONY : KESIMORECUSRIVO.obj
+.PHONY : ListaduplamenteEncadeada.obj
 
 # target to build an object file
-KESIMORECUSRIVO.CPP.obj:
-	$(MAKE) -f CMakeFiles\estruturadeDados.dir\build.make CMakeFiles/estruturadeDados.dir/KESIMORECUSRIVO.CPP.obj
-.PHONY : KESIMORECUSRIVO.CPP.obj
+ListaduplamenteEncadeada.cpp.obj:
+	$(MAKE) -f CMakeFiles\estruturadeDados.dir\build.make CMakeFiles/estruturadeDados.dir/ListaduplamenteEncadeada.cpp.obj
+.PHONY : ListaduplamenteEncadeada.cpp.obj
 
-KESIMORECUSRIVO.i: KESIMORECUSRIVO.CPP.i
+ListaduplamenteEncadeada.i: ListaduplamenteEncadeada.cpp.i
 
-.PHONY : KESIMORECUSRIVO.i
+.PHONY : ListaduplamenteEncadeada.i
 
 # target to preprocess a source file
-KESIMORECUSRIVO.CPP.i:
-	$(MAKE) -f CMakeFiles\estruturadeDados.dir\build.make CMakeFiles/estruturadeDados.dir/KESIMORECUSRIVO.CPP.i
-.PHONY : KESIMORECUSRIVO.CPP.i
+ListaduplamenteEncadeada.cpp.i:
+	$(MAKE) -f CMakeFiles\estruturadeDados.dir\build.make CMakeFiles/estruturadeDados.dir/ListaduplamenteEncadeada.cpp.i
+.PHONY : ListaduplamenteEncadeada.cpp.i
 
-KESIMORECUSRIVO.s: KESIMORECUSRIVO.CPP.s
+ListaduplamenteEncadeada.s: ListaduplamenteEncadeada.cpp.s
 
-.PHONY : KESIMORECUSRIVO.s
+.PHONY : ListaduplamenteEncadeada.s
 
 # target to generate assembly for a file
-KESIMORECUSRIVO.CPP.s:
-	$(MAKE) -f CMakeFiles\estruturadeDados.dir\build.make CMakeFiles/estruturadeDados.dir/KESIMORECUSRIVO.CPP.s
-.PHONY : KESIMORECUSRIVO.CPP.s
+ListaduplamenteEncadeada.cpp.s:
+	$(MAKE) -f CMakeFiles\estruturadeDados.dir\build.make CMakeFiles/estruturadeDados.dir/ListaduplamenteEncadeada.cpp.s
+.PHONY : ListaduplamenteEncadeada.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... estruturadeDados
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... KESIMORECUSRIVO.obj
-	@echo ... KESIMORECUSRIVO.i
-	@echo ... KESIMORECUSRIVO.s
+	@echo ... ListaduplamenteEncadeada.obj
+	@echo ... ListaduplamenteEncadeada.i
+	@echo ... ListaduplamenteEncadeada.s
 .PHONY : help
 
 

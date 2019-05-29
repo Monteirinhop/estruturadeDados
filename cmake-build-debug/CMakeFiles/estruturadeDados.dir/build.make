@@ -56,27 +56,27 @@ include CMakeFiles/estruturadeDados.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/estruturadeDados.dir/flags.make
 
-CMakeFiles/estruturadeDados.dir/KESIMORECUSRIVO.CPP.obj: CMakeFiles/estruturadeDados.dir/flags.make
-CMakeFiles/estruturadeDados.dir/KESIMORECUSRIVO.CPP.obj: ../KESIMORECUSRIVO.CPP
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Gustavo Monteiro\estruturadeDados\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/estruturadeDados.dir/KESIMORECUSRIVO.CPP.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\estruturadeDados.dir\KESIMORECUSRIVO.CPP.obj -c "C:\Users\Gustavo Monteiro\estruturadeDados\KESIMORECUSRIVO.CPP"
+CMakeFiles/estruturadeDados.dir/ListaduplamenteEncadeada.cpp.obj: CMakeFiles/estruturadeDados.dir/flags.make
+CMakeFiles/estruturadeDados.dir/ListaduplamenteEncadeada.cpp.obj: ../ListaduplamenteEncadeada.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Gustavo Monteiro\estruturadeDados\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/estruturadeDados.dir/ListaduplamenteEncadeada.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\estruturadeDados.dir\ListaduplamenteEncadeada.cpp.obj -c "C:\Users\Gustavo Monteiro\estruturadeDados\ListaduplamenteEncadeada.cpp"
 
-CMakeFiles/estruturadeDados.dir/KESIMORECUSRIVO.CPP.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estruturadeDados.dir/KESIMORECUSRIVO.CPP.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Gustavo Monteiro\estruturadeDados\KESIMORECUSRIVO.CPP" > CMakeFiles\estruturadeDados.dir\KESIMORECUSRIVO.CPP.i
+CMakeFiles/estruturadeDados.dir/ListaduplamenteEncadeada.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estruturadeDados.dir/ListaduplamenteEncadeada.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Gustavo Monteiro\estruturadeDados\ListaduplamenteEncadeada.cpp" > CMakeFiles\estruturadeDados.dir\ListaduplamenteEncadeada.cpp.i
 
-CMakeFiles/estruturadeDados.dir/KESIMORECUSRIVO.CPP.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estruturadeDados.dir/KESIMORECUSRIVO.CPP.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Gustavo Monteiro\estruturadeDados\KESIMORECUSRIVO.CPP" -o CMakeFiles\estruturadeDados.dir\KESIMORECUSRIVO.CPP.s
+CMakeFiles/estruturadeDados.dir/ListaduplamenteEncadeada.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estruturadeDados.dir/ListaduplamenteEncadeada.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Gustavo Monteiro\estruturadeDados\ListaduplamenteEncadeada.cpp" -o CMakeFiles\estruturadeDados.dir\ListaduplamenteEncadeada.cpp.s
 
 # Object files for target estruturadeDados
 estruturadeDados_OBJECTS = \
-"CMakeFiles/estruturadeDados.dir/KESIMORECUSRIVO.CPP.obj"
+"CMakeFiles/estruturadeDados.dir/ListaduplamenteEncadeada.cpp.obj"
 
 # External object files for target estruturadeDados
 estruturadeDados_EXTERNAL_OBJECTS =
 
-estruturadeDados.exe: CMakeFiles/estruturadeDados.dir/KESIMORECUSRIVO.CPP.obj
+estruturadeDados.exe: CMakeFiles/estruturadeDados.dir/ListaduplamenteEncadeada.cpp.obj
 estruturadeDados.exe: CMakeFiles/estruturadeDados.dir/build.make
 estruturadeDados.exe: CMakeFiles/estruturadeDados.dir/linklibs.rsp
 estruturadeDados.exe: CMakeFiles/estruturadeDados.dir/objects1.rsp

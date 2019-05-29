@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Gustavo Monteiro/estruturadeDados/ListaduplamenteEncadeada.cpp" "C:/Users/Gustavo Monteiro/estruturadeDados/cmake-build-debug/CMakeFiles/estruturadeDados.dir/ListaduplamenteEncadeada.cpp.obj"
+  "C:/Users/Gustavo Monteiro/estruturadeDados/main.cpp" "C:/Users/Gustavo Monteiro/estruturadeDados/cmake-build-debug/CMakeFiles/untitled1.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

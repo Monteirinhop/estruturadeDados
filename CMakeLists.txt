@@ -3,6 +3,4 @@ project(estruturadeDados)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(trablhoEstrutura
-
-        gilmarmeFudeu.cpp)
+add_executable(estruturadeDados ListaduplamenteEncadeada.cpp)
