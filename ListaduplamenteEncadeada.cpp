@@ -26,12 +26,10 @@ void inserirTopo(struct No** topo_ref, int novo_valor){
 
 }
 void imprimeLista(struct No *no){
-struct No *ultimo;
-cout << "\n Atravessa em direcao ao final da lista \t ";
+cout << "\nAtravessa em direçao ao Final da Lista: ";
 while (no != NULL){
-    cout << no->valor << "  ";
-    ultimo = no;
-    no = no ->proximo;
+cout << no -> valor << " ";
+no = no -> proximo;
 }
 
 }
@@ -68,40 +66,21 @@ void inserirFim(struct No** topo_ref,int novo_valor){
     }
 
 }
-void inserirAntes(struct No** referencia, int novo_value){
-    struct No* novo_no = new struct No;
-    struct No* antes = *referencia;
-    novo_no->valor = novo_value;
-    novo_no->proximo = antes;
-    if (*referencia == NULL){
-        novo_no-> anterior = NULL;
-        *referencia = novo_no;
-        return;
-    }
-    while (antes->proximo != NULL){
-        antes = antes->proximo;
-        antes->proximo = novo_no;
-        novo_no->anterior = antes;
-        return;
-    }
+void imprimirListainvertida(No *no){
+ struct No *ultimo;
+while (no->proximo != NULL)
+no = no->proximo;
+ultimo = no;
 
-}
-void imprimirListainvertida(No *n){
-    cout << "Lista invertida: ";
-   // cout << n->valor << "  ";
+cout << "\nAtravessa em direção ao Inicio da Lista: ";
+while (ultimo != NULL){
 
-    while(n->proximo !=  NULL  ){
-        n = n->proximo;
-        int valor = n->valor;
-        //cout << valor << "  ";
-        //cout << n->valor << "  ";
-    }
-    cout << n-> valor << "  ";
-    while(n->anterior != NULL){
-        n = n->anterior;
-        cout << n->valor << "  ";
-    }
-}
+cout << ultimo->valor << " ";
+ultimo = ultimo->anterior;
+
+    
+}}
+   
 
 void removerNo(struct No *no, int valor){
     while (no-> valor != valor && no->proximo){
@@ -117,15 +96,31 @@ void removerNo(struct No *no, int valor){
 
 
 }
+void inserirAntes(struct No *no, int antes, int novo){
+    while (no ->valor != antes)
+    no = no->proximo;
+    
+    no - no->anterior;
+    struct No* no_anterior = no;
+    struct No* novo_valor = new struct No;
+    novo_valor ->valor = novo;
+    no_anterior ->proximo = novo_valor;
+    novo_valor->proximo = no_anterior->proximo;
+    novo_valor->anterior = no_anterior;
+    if (novo_valor->proximo != NULL)
+    novo_valor->proximo->anterior = novo_valor;
+    
+    
+}
 int main(){
     struct No* topo = NULL;
-
-    inserirTopo(&topo, 10); /* 30→ 10→ NULL*/
-    inserirDepois(topo,10,20); /*30→ 20→ 10→ NULL*/
-    inserirFim(&topo, 30); /*10→ NULL*/
-    inserirAntes(&topo, 30);
+    
+    inserirFim(&topo,3);
+    inserirTopo(&topo,1);
+    inserirDepois(topo,3,2);
+    inserirAntes(topo,3,1);
     imprimeLista(topo);
-    cout << "\n\n"  ;
+    cout << "\n\n";
     imprimirListainvertida(topo);
 
 

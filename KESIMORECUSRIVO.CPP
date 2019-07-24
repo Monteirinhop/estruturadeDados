@@ -18,7 +18,7 @@ int tamanhoVetor = sizeof(vetor)/4;
 int controle = sizeof(vetor)/4;
 int kesimo = fazkesimo(vetor,tamanhoVetor,controle);
 
-cout << teste;
+cout << kesimo;
 
 
 
